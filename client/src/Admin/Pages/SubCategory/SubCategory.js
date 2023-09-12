@@ -58,7 +58,7 @@ const SubCategory = () => {
             id="standard-basic"
             label="Main Category"
             variant="standard"
-            fullWidth
+           
           />
         </Grid>
         <Grid item xs={7}>
@@ -66,7 +66,7 @@ const SubCategory = () => {
             id="standard-basic"
             label="Main Category"
             variant="standard"
-            fullWidth
+          
           />
         </Grid>
       </Grid>
