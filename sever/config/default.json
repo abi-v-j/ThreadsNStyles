@@ -1,0 +1,4 @@
+{
+    "mogooseURL":"mongodb+srv://abijoy611:OBUAHqDhwDNGmciJ@cluster0.gbdc52n.mongodb.net/db_shopping",
+    "jwtSecret":"mysecrettoken"
+}

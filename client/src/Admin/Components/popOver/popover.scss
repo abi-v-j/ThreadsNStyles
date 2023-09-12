@@ -1,0 +1,47 @@
+.popover {
+  margin-top: 50px;
+  margin-right: 40px;
+ 
+
+  .paper {
+    width: 190px; // Increase the width as needed
+    height: 215px; // Increase the height as needed
+   
+   
+    .name{
+        padding: .5em;
+        display: flex;
+        align-items: center;
+       
+    }
+    .link{
+        text-decoration: none;
+        color: #007bff;
+       
+
+        
+        .row{
+            padding: .5em;
+            display: flex;
+            align-items: center;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        .btn{
+            margin-top: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 4px;
+            // border: 1px solid;
+           border-radius: 10px;
+            color: rgb(10, 138, 243);
+        }
+        .btn:hover{
+            color: white;
+            background-color: #007bff;
+            transition: 0.7s;
+      }
+    }
+  }
+}

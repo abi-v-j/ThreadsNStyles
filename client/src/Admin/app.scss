@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+}
+
+.home {
+  .homeContainer {
+    display: flex;
+
+    .mainContainer {
+      flex: 4;
+      scrollbar-width: thin; /* Firefox */
+      scrollbar-color: transparent transparent; /* Firefox */
+
+      /* Hide the scrollbar in webkit-based browsers */
+      &::-webkit-scrollbar {
+        width: 0.5rem; /* Adjust the width as needed */
+      }
+
+      &::-webkit-scrollbar-thumb {
+        background-color: transparent; /* Hide the thumb */
+      }
+      max-height: 88vh; /* Set a maximum height for the sidebar */
+      overflow-y: scroll; /* Add scrollbars when content overflows */
+
+      scroll-behavior: smooth; /* Enable smooth scrolling */
+      top: 0;
+
+      .listContainer {
+        -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+        box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+        padding: 20px;
+        margin: 20px;
+
+        .listTitle {
+          font-weight: 500;
+          color: gray;
+          margin-bottom: 15px;
+        }
+      }
+    }
+  }
+}
